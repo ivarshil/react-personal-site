@@ -1,0 +1,128 @@
+@media all and (max-width: 770px) {
+  .Welcome>.main-pic {
+    width: 100px
+  }
+
+  .Welcome a i {
+    font-size: 20px;
+  }
+
+  .Welcome .resume-button {
+    font-size: 18px;
+    width: 200px;
+  }
+
+  .bg {
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+    position: fixed;
+  }
+
+
+}
+
+
+.App {
+  background-position: center;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 50fpx;
+  line-height: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.Welcome {
+
+  display: flex;
+  background-color: none;
+  height: 100vh;
+
+  padding-left: 75px;
+  padding-right: 75px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Welcome .i-hov {
+  color: rgba(199, 12, 12, 0.786);
+  margin: 10px;
+
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.Welcome .i-hov:hover {
+  color: #0a66c2;
+  display: inline-block;
+}
+
+.Welcome button {
+  font-family: "Montserrat",sans-serif;
+  background-color:#c4bbb2;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  padding: 0.3em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 5px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  will-change: box-shadow, transform;
+}
+
+.Welcome button:hover {
+  background-color: #94a5ad;
+  border: 2px solid transparent;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 1.5rem 50rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.02) translateY(-4px);
+}
+
+
+.main-pic {
+  border-radius: 50%;
+  width: 22vw;
+  /* padding: auto;
+  margin: auto; */
+}
+
+.welcome-intro {
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  font-weight: 100;
+  align-self: center;
+  margin-right: 50px;
+  /* background-color: #0464a481; */
+}
+
+.welcome-intro strong {
+  font-weight: 850;
+}
