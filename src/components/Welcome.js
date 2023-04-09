@@ -46,7 +46,10 @@ class Welcome extends Component {
           >
             <i className="fa fa-twitter-square i-hov" />
           </a>{" "}
-          <a href="https://instagram.com/ivarshil" target="_blank">
+          <a href="https://instagram.com/ivarshil" 
+             target="_blank"
+             rel="noopener noreferrer"
+           >
             <i className="fa fa-instagram i-hov" />
           </a>{" "}
         </h1>
