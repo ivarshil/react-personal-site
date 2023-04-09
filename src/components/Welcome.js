@@ -23,7 +23,7 @@ class Welcome extends Component {
             </button>
           </a>
           <a
-            href="https://ivarshil.tech/cv.pdf"
+            href="https://ivarshil.in/cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
